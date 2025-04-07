@@ -1,4 +1,9 @@
-
 <h1>
     Observables
 </h1>
+
+@if (observable$) {
+@for (number of numberArray; track $index) {
+<p>Number: {{ number }}</p>
+}
+}
