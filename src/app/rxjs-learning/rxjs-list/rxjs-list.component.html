@@ -1,0 +1,5 @@
+<div class="root">
+    @for(rxjsOprator of rxjsOprators; track $index) {
+        <button class="operator-button" type="button" (click)="routeTo(rxjsOprator)">{{ rxjsOprator }}</button>
+    }
+</div>

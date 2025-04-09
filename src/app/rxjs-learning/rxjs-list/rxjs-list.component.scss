@@ -1,0 +1,15 @@
+.root {
+    height: calc(100% - 85px);
+    overflow: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    .operator-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+    }
+}
